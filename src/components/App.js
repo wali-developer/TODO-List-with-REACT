@@ -8,7 +8,7 @@ import "./App1.css";
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { tasks: ["Javascript", "Python", "C++", "Java", "PHP"] };
+    this.state = { tasks: [] };
     this.RemoveAll = this.RemoveAll.bind(this);
     this.Pick = this.Pick.bind(this);
     this.addItem = this.addItem.bind(this);
